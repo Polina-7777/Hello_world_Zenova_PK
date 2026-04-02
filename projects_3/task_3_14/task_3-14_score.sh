@@ -1,0 +1,10 @@
+#!/bin/bash
+FILE="students.txt"
+echo "=== Студенты с оценкой выше 80 ==="
+awk '$2 > 80 {print $1 ": " $2}' "$FILE"
+echo ""
+echo "=== Студенты с оценкой ниже 70 ==="
+awk '$2 < 70 {print $1 ": " $2}' "$FILE"
+echo ""
+echo "=== Первая строка файла ==="
+head -n 1 "$FILE"

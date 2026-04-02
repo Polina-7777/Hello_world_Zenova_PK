@@ -1,0 +1,11 @@
+ls -lah
+
+total 8.0K
+drwxr-x--- 1 pilinka pilinka  512 Mar 30 20:50 .
+drwxr-xr-x 1 root    root     512 Mar 30 20:48 ..
+-rw-r--r-- 1 pilinka pilinka  220 Mar 30 20:48 .bash_logout
+-rw-r--r-- 1 pilinka pilinka 3.7K Mar 30 20:48 .bashrc
+drwxr-xr-x 1 pilinka pilinka  512 Mar 30 20:49 .landscape
+-rw-r--r-- 1 pilinka pilinka    0 Mar 30 20:49 .motd_shown
+-rw-r--r-- 1 pilinka pilinka  807 Mar 30 20:48 .profile
+-rw-r--r-- 1 pilinka pilinka    0 Mar 30 20:50 .sudo_as_admin_successful
